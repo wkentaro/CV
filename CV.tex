@@ -33,10 +33,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % CV Info (to be customized).
-\newcommand{\CVAuthor}{John Doe}
-\newcommand{\CVTitle}{John Doe's CV for Acme Corporation}
-\newcommand{\CVNote}{CV compiled on {\today} for Acme Corporation}
-\newcommand{\CVWebpage}{http://www.example.com/johndoe}
+\newcommand{\CVAuthor}{Kentaro Wada}
+\newcommand{\CVTitle}{Kentaro Wada's CV}
+\newcommand{\CVNote}{CV compiled on {\today}}
+\newcommand{\CVWebpage}{http://wkentaro.com}
 
 % PDF settings and properties.
 \hypersetup{
@@ -72,13 +72,13 @@ breaklinks}
 \title{\CVAuthor}
 
 \begin{subtitle}
-\href{https://www.google.com/maps/place/17+Prime+Avenue,+Springfield,+Pennsylvania+10111,+USA}
-{17 Prime Avenue, Apt 37, Springfield, Pennsylvania 10111, USA}
+\href{https://www.google.co.jp/maps/place/5+Chome-14-24+Sendagi,+Bunky\%\%C5\%8D-ku,+T\%C5\%8Dky\%C5\%8D-to+113-0022/@35.7256436,139.7565051,17z/data=!3m1!4b1!4m5!3m4!1s0x60188dcec1ae4043:0x8a34261552288e81!8m2!3d35.7256436!4d139.7586938?hl=en}
+{5-14-24 Sendagi, Bunkyo-ku, Tokyo, 1130022, Japan}
 \par
-\href{mailto:johndoe@example.com}
-{johndoe@example.com}
+\href{mailto:www.kentaro.wada@gmail.com}
+{www.kentaro.wada@gmail.com}
 \,\SubBulletSymbol\,
-+1\,(555)\,101-1001
++81\,(80)\,6177-5221
 \,\SubBulletSymbol\,
 \href{\CVWebpage}
 {\CVWebpage}
@@ -95,69 +95,53 @@ breaklinks}
 {Education}
 {PDF:Education}
 
-\href{http://www.example.com/my-university}
-{\textbf{First American University}},
-Springfield, Massachusetts, USA
+\href{http://www.u-tokyo.ac.jp/en/index.html}
+{\textbf{The University of Tokyo}},
+Bunkyo-ku, Tokyo, Japan
 
 \GapNoBreak
 \BulletItem
-Doctor of Philosophy (Ph.D.) in
-\href{http://www.example.com/my-department}
-{Geophysical Engineering}
+Master of Computer Science (M.S.) in
+\href{http://www.i.u-tokyo.ac.jp/edu/course/ci/aim_e.shtml}
+{Creative Informatics of Information Science and Technology}
 \hfill
-\DatestampYMD{2009}{12}{15} --
-\DatestampYMD{2014}{07}{15}
+\DatestampYMD{2016}{09}{23} --
+Present
 \begin{detail}
 \SubBulletItem
 Thesis:
-\href{http://www.example.com/my-phd-thesis}
-{A Statistical Approach to Quantifying Climate Change}
+Study of Robotic Manipulation with Learning for Object Segmentation
 \SubBulletItem
-Adviser:
-Prof.~Jonathan~Public
+Supervisors:
+Prof.~Masayuki~Inaba and Assistant~Prof.~Kei~Okada
 \SubBulletItem
 Focus:
-Climate change, metrology, lasers, statistics.
+Machine Learning, 3D Vision, Robotic Manipulation
 \end{detail}
-
-\GapNoBreak
-\BulletItem
-Master of Business Administration (M.B.A.)
-\hfill
-\DatestampYMD{2008}{11}{15} --
-\DatestampYMD{2009}{06}{15}
-
-\GapNoBreak
-\BulletItem
-Master of Science (M.S.) in
-\href{http://www.example.com/my-department}
-{Geophysical Engineering}
-\hfill
-\DatestampYMD{2006}{08}{15} --
-\DatestampYMD{2008}{08}{15}
-\begin{detail}
-\SubBulletItem
-Cumulative GPA: 3.7 / 4.0
-\end{detail}
-
-\BigGap
-\href{http://www.example.com/my-college}
-{\textbf{Science College}},
-Springfield, Pennsylvania, USA
 
 \GapNoBreak
 \BulletItem
 Bachelor of Science (B.S.) in
-\href{http://www.example.com/my-department}
-{Geography}
+\href{http://www.kikaib.t.u-tokyo.ac.jp}
+{Mechano-Informatics, Engineering Department}
 \hfill
-\DatestampYMD{2002}{05}{15} --
-\DatestampYMD{2005}{05}{15}
+\DatestampYMD{2012}{04}{01} --
+\DatestampYMD{2016}{03}{31}
 \begin{detail}
 \SubBulletItem
-Graduated with College Honors.
+Thesis:
+Learning for Picking through Experience of Verification-based Perception System
 \SubBulletItem
-Cumulative GPA: 3.96 / 4.00
+Supervisors:
+Prof.~Masayuki~Inaba and Assistant~Prof.~Kei~Okada
+\SubBulletItem
+Focus:
+Machine Learning, 3D Vision, Robotic Manipulation
+\SubBulletItem
+Studied in Science II Cource in \DatestampYMD{2012}{04}{01} -- \DatestampYMD{2014}{09}{31},
+before the decision of department in \DatestampYMD{2014}{10}.
+% \SubBulletItem
+% Cumulative GPA: 3.7 / 4.0
 \end{detail}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
@@ -169,27 +153,85 @@ Cumulative GPA: 3.96 / 4.00
 {Research Experience}
 {PDF:ResearchExperience}
 
-\href{http://www.example.com/my-institute}
-{\textbf{Institute for Advanced Research}},
-Science College
+\href{http://www.jsk.t.u-tokyo.ac.jp/}
+{\textbf{JSK Robotics Laboratory}},
+The University of Tokyo
 
 \GapNoBreak
 \BulletItem
-Undergraduate Research Student, Science Department
+Graduate Research Student, Computer Science Department
 \hfill
-\DatestampYMD{2004}{05}{15} --
-\DatestampYMD{2005}{05}{15}
+\DatestampYMD{2016}{10}{01} --
+Present
 \begin{detail}
 \SubBulletItem
 Project:
-Investigations on the Use of Lasers to Measure Climate Change
+Study of Robotic Manipulation with Learning for Object Segmentation (Master Thesis)
 \SubBulletItem
 Supervisors:
-Prof.~Jane~Citizen and
-Dr~Ann~Yone
+Prof.~Masayuki~Inaba and Assistant~Prof.~Kei~Okada
 \SubBulletItem
 Focus:
-Climate change, lasers, statistical analysis, data analytics.
+Deep Learning, 3D Vision, Robotic Manipulation
+\end{detail}
+
+\GapNoBreak
+\BulletItem
+Research Assistant
+\hfill
+\DatestampYMD{2015}{10}{01} --
+\DatestampYMD{2016}{09}{31}
+\begin{detail}
+\SubBulletItem
+Project:
+Picking General Objects with Verification-based Vision System
+\SubBulletItem
+Supervisors:
+Assistant~Prof.~Kei~Okada
+\SubBulletItem
+Focus:
+Deep Learning, 3D Vision, Robotic Manipulation
+\end{detail}
+
+\GapNoBreak
+\BulletItem
+Undergraduate Research Student, Engineering Department
+\hfill
+\DatestampYMD{2015}{04}{01} --
+\DatestampYMD{2016}{03}{31}
+\begin{detail}
+\SubBulletItem
+Project:
+Learning for Picking through Experience of Verification-based Perception System (Bachelor Thesis)
+\SubBulletItem
+Supervisors:
+Prof.~Masayuki~Inaba and Assistant~Prof.~Kei~Okada
+\SubBulletItem
+Focus:
+Deep Learning, 3D Vision, Robotic Manipulation
+\end{detail}
+
+
+\href{http://www.jsk.t.u-tokyo.ac.jp/}
+{\textbf{Tanaka Kenji Laboratory}},
+The University of Tokyo
+
+\GapNoBreak
+\BulletItem
+Research Assistant
+\hfill
+\DatestampYMD{2014}{05}{01} --
+\DatestampYMD{2015}{03}{31}
+\begin{detail}
+\SubBulletItem
+Project:
+Customer Clustering with Big Data Analysis of Purchase History
+\SubBulletItem
+Supervisors:
+Associate~Prof.~Kenji~Tanaka
+\SubBulletItem
+Focus:
+Machine Learning, Data Mining
 \end{detail}
 
 %%%%%%%%%%%%%%%%%%
@@ -207,119 +249,104 @@ Climate change, lasers, statistical analysis, data analytics.
 {PDF:Journals}
 
 \GapNoBreak
-\NumberedItem{[11]}
-\href{http://www.example.com/my-paper-doi-5}
-{\underline{J.~Doe}, J.~Citizen, and A.~Yone,
-``On lasers and climate change,''
-\textit{Journal of Science},
-vol.~89,
-no.~2,
-pp.~4123--4133,
-\DatestampYM{2008}{02}.}
-
 % Note the use of {\CharSpace} for aligning shorter numbers.
-\Gap
 \NumberedItem{{\CharSpace}[1]}
-\href{http://www.example.com/my-paper-doi-4}
-{\underline{J.~Doe} and J.~Citizen,
-``Measuring the extent of climate change,''
-\textit{Global Scientific Journal},
-vol.~12,
-no.~4,
-pp.~330--352,
-\DatestampYM{2006}{12}.}
+\underline{K.~Wada}, I.~Yanokura, M.~Sugiura, Y.~Inagaki, K.~Okada, and M.~Inaba,
+``Pick-and-Verify: Verification-based Highly Reliable Picking System for Various Target Objects in Clutter'',
+\textit{Journal of Advanced Robotics},
+(To appear)
 
 \BigGap
 \subsection
-{Conferences}
-{Conferences}
-{PDF:Conferences}
+{International Conferences}
+{International Conferences}
+{PDF:InternationalConferences}
 
 \GapNoBreak
-\NumberedItem{[11]}
-\href{http://www.example.com/my-paper-doi-3}
-{\underline{J.~Doe}, J.~Citizen, and A.~Yone,
-``On lasers and climate change,''
-in \textit{Proceedings of the Laser Symposium},
-Las Vegas, Nevada, USA,
-\DatestampYM{2007}{01}.}
-
-\Gap
-\NumberedItem{[10]}
-\href{http://www.example.com/my-paper-doi-2}
-{A.~Yone and \underline{J.~Doe},
-``Climate change and general relativity,''
-in \textit{Proceedings of the International Astronomical Conference},
-Sydney, Australia,
-\DatestampYM{2006}{8}.}
-
 % Note the use of {\CharSpace} for aligning shorter numbers.
+\NumberedItem{{\CharSpace}[2]}
+\href{https://ras.papercept.net/conferences/conferences/ICHR16/program/ICHR16_ContentListWeb_2.html}
+{\underline{K.~Wada}, M.~Murooka, K.~Okada, and M.~Inaba,
+``3D Object Segmentation for Shelf Bin Picking by Humanoid with Deep Learning and Occupancy Voxel Grid Map'',
+in \textit{Proceedings of the 2016 IEEE-RAS International Conference on Humanoid Robotics (Humanoids 2016)},
+Cancun, Mexico.
+\DatestampYM{2016}{11}.}
+
 \Gap
-\NumberedItem{{\CharSpace}[1]}
-\href{http://www.example.com/my-paper-doi-1}
-{\underline{J.~Doe} and J.~Citizen,
-``Measuring the extent of climate change,''
-in \textit{Proceedings of the International Climate Change Conference},
-London, UK,
-\DatestampYM{2005}{11}.}
+% Note the use of {\CharSpace} for aligning shorter numbers.
+\NumberedItem{{\CharSpace}[3]}
+\href{https://ras.papercept.net/conferences/conferences/ICHR16/program/ICHR16_ContentListWeb_1.html}
+{Y.~Furuta, \underline{K.~Wada}, M.~Masaki, S.~Nozawa, Y.~Kakichi, K.~Okada and M.~Inaba,
+``Transformable Semantic Map Based Navigation using Autonomous Deep Learning Object Segmentation'',
+in \textit{Proceedings of the 2016 IEEE-RAS International Conference on Humanoid Robotics (Humanoids 2016)},
+Cancun, Mexico.
+\DatestampYM{2016}{11}.}
+
+\BigGap
+\subsection
+{Domestic Conferences}
+{Domestic Conferences}
+{PDF:DomesticConferences}
+
+% TODO(wkentaro)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% AWARDS & SCHOLARSHIPS %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section
-{Awards \&\newline
-Scholarships}
-{Awards \& Scholarships}
-{PDF:AwardsAndScholarships}
-
-\BulletItem
-Dean's List,
-Fall 2002 through Spring 2005,
-Science College
-\hfill
-\DatestampY{2002} --
-\DatestampY{2005}
-\begin{detail}
-\SubItem
-For attaining a semester GPA of at least 3.75.
-\end{detail}
-
-\Gap
-\BulletItem
-Undergraduate Researcher Award,
-Science College
-\hfill
-\DatestampYMD{2005}{05}{15}
-\begin{detail}
-\SubItem
-For outstanding scientific contributions in the fields of lasers and climate change.
-\end{detail}
-
-\Gap
-\BulletItem
-Chess Tournament,
-First Prize,
-Science College
-\hfill
-\DatestampYMD{2003}{03}{10}
-\begin{detail}
-\SubItem
-Awarded at the Tenth Annual Chess Tournament held during Open House.
-\end{detail}
-
-\Gap
-\BulletItem
-International Science Scholarship,
-\hfill
-\DatestampYMD{2001}{12}{10}
-\newline
-Global Science, Technology, Engineering, and Mathematics Foundation
-\begin{detail}
-\SubItem
-Full-tuition scholarship with stipend for undergraduate studies.
-One of 42 awardees in the world.
-\end{detail}
+% \section
+% {Awards \&\newline
+% Scholarships}
+% {Awards \& Scholarships}
+% {PDF:AwardsAndScholarships}
+%
+% \BulletItem
+% Dean's List,
+% Fall 2002 through Spring 2005,
+% Science College
+% \hfill
+% \DatestampY{2002} --
+% \DatestampY{2005}
+% \begin{detail}
+% \SubItem
+% For attaining a semester GPA of at least 3.75.
+% \end{detail}
+%
+% \Gap
+% \BulletItem
+% Undergraduate Researcher Award,
+% Science College
+% \hfill
+% \DatestampYMD{2005}{05}{15}
+% \begin{detail}
+% \SubItem
+% For outstanding scientific contributions in the fields of lasers and climate change.
+% \end{detail}
+%
+% \Gap
+% \BulletItem
+% Chess Tournament,
+% First Prize,
+% Science College
+% \hfill
+% \DatestampYMD{2003}{03}{10}
+% \begin{detail}
+% \SubItem
+% Awarded at the Tenth Annual Chess Tournament held during Open House.
+% \end{detail}
+%
+% \Gap
+% \BulletItem
+% International Science Scholarship,
+% \hfill
+% \DatestampYMD{2001}{12}{10}
+% \newline
+% Global Science, Technology, Engineering, and Mathematics Foundation
+% \begin{detail}
+% \SubItem
+% Full-tuition scholarship with stipend for undergraduate studies.
+% One of 42 awardees in the world.
+% \end{detail}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% PROFESSIONAL AFFILIATIONS & ACTIVITIES %%
@@ -346,31 +373,31 @@ Present
 %% CAMPUS ACTIVITIES %%
 %%%%%%%%%%%%%%%%%%%%%%%
 
-\section
-{Campus Activities}
-{Campus Activities}
-{PDF:CampusActivities}
-
-\href{http://www.example.com/my-club}
-{\textbf{First Volunteers Club}},
-First American University
-
-\GapNoBreak
-\BulletItem
-President
-\hfill
-\DatestampYMD{2006}{08}{15} --
-\DatestampYMD{2007}{08}{15}
-\begin{detail}
-\SubBulletItem
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-\SubBulletItem
-Curabitur vitae laoreet velit, vel ultricies est. Nam nec elit ac ante facilisis ultrices.
-\SubBulletItem
-Integer sit amet turpis dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at orci eu leo vulputate finibus sed et sem.
-\SubBulletItem
-Suspendisse volutpat sapien et mi cursus, gravida ornare mauris sollicitudin.
-\end{detail}
+% \section
+% {Campus Activities}
+% {Campus Activities}
+% {PDF:CampusActivities}
+%
+% \href{http://www.example.com/my-club}
+% {\textbf{First Volunteers Club}},
+% First American University
+%
+% \GapNoBreak
+% \BulletItem
+% President
+% \hfill
+% \DatestampYMD{2006}{08}{15} --
+% \DatestampYMD{2007}{08}{15}
+% \begin{detail}
+% \SubBulletItem
+% Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+% \SubBulletItem
+% Curabitur vitae laoreet velit, vel ultricies est. Nam nec elit ac ante facilisis ultrices.
+% \SubBulletItem
+% Integer sit amet turpis dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at orci eu leo vulputate finibus sed et sem.
+% \SubBulletItem
+% Suspendisse volutpat sapien et mi cursus, gravida ornare mauris sollicitudin.
+% \end{detail}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% OTHER WORK EXPERIENCE %%
@@ -412,15 +439,15 @@ Etiam vitae eros mollis, consectetur quam quis, molestie massa.
 {PDF:Languages}
 
 \BulletItem
-English: Native language.
+Japanese: Native language.
 
 \GapNoBreak
 \BulletItem
-Spanish: Fluent (speaking, reading, writing).
+English: Fluent (listening, speaking, reading, writing).
 
 \GapNoBreak
 \BulletItem
-Latin: Intermediate (reading); basic (speaking, writing).
+Chinese: Basic (listening, speaking, reading, writing).
 
 %%%%%%%%%%%%
 %% SKILLS %%
@@ -431,12 +458,12 @@ Latin: Intermediate (reading); basic (speaking, writing).
 {Skills}
 {PDF:Skills}
 
-{\TeX}, {\LaTeX}, {\XeLaTeX},
-MATLAB,
-Mathematica,
-R,
-Adobe Photoshop,
-Adobe Illustrator.
+\BulletItem
+Programming Languages: Python, C++, C, Bash, Zsh, HTML, CSS, Javascript, PHP, Lisp
+
+\GapNoBreak
+\BulletItem
+Frameworks: ROS, PCL, OpenCV, scikit-image, Chainer, Caffe, scikit-learn, django
 
 %%%%%%%%%%%%%%%
 %% INTERESTS %%
@@ -447,9 +474,9 @@ Adobe Illustrator.
 {Interests}
 {PDF:Interests}
 
-Digital photography,
-typography,
-swimming.
+Basketball,
+western art,
+piano.
 
 %%%%%%%%%%%%%%%%
 %% REFERENCES %%
@@ -461,242 +488,33 @@ swimming.
 {PDF:References}
 
 \BulletItem
-\textbf{Professor Jonathan Public}
+\textbf{Professor Masayuki Inaba}
 \newline
-Professor of Geology and Mechanical Engineering
+Professor of Mechano-Informatics Department
 \newline
-First American University
+The University of Tokyo
 \newline
-1000 First Avenue, Springfield, Massachusetts 22222, USA
+73A1, Engineering Building NO. 2, 7-3-1, Hongo, Bunkyo-ku, Tokyo, 1138656, Japan
 \newline
-\href{mailto:jonathanpublic@example.com}
-{jonathanpublic@example.com}
+\href{mailto:inaba@jsk.imi.i.u-tokyo.ac.jp}
+{inaba@jsk.imi.i.u-tokyo.ac.jp}
 \,\SubBulletSymbol\,
-+1\,(555)\,222-2222
++81\,(3)\,5841-7416
 
 \BigGap
 \BulletItem
-\textbf{Dr Alice Bob Carol}
+\textbf{Assistant Professor Kei Okada}
 \newline
-Director, Research \& Development
+Assistant Professor of Mechano-Informatics Department
 \newline
-Alpha Engineering Firm
+The University of Tokyo
 \newline
-20 North Street, Oakland, Ohio 33333, USA
+73A2, Engineering Building NO. 2, 7-3-1, Hongo, Bunkyo-ku, Tokyo, 1138656, Japan
 \newline
-\href{mailto:alicebobcarol@example.com}
-{alicebobcarol@example.com}
+\href{mailto:k-okada@jsk.imi.i.u-tokyo.ac.jp}
+{k-okada@jsk.imi.i.u-tokyo.ac.jp}
 \,\SubBulletSymbol\,
-+1\,(555)\,333-3333
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SECTION WITH USAGE EXAMPLES %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section
-{Section\newline
-With\newline
-Usage\newline
-Examples}
-{Section With Usage Examples (For PDF Bookmark)}
-{PDF:SectionWithUsageExamples:ForPDFLink}
-
-\subsection
-{This is a Subsection}
-{This is a Subsection}
-{PDF:ThisIsASubSection}
-
-\GapNoBreak
-\BulletItem
-Use \CodeCommand{section} and \CodeCommand{subsection} to create sections and subsections.
-These will appear in the PDF bookmarks too.
-
-\GapNoBreak
-\BulletItem
-This is the second \CodeCommand{BulletItem}.
-Long items are automatically indented.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Sed sed aliquam massa.
-\begin{detail}
-\SubBulletItem
-This is a \CodeCommand{SubBulletItem}.
-Long items are automatically indented.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Sed sed aliquam massa.
-Aliquam dignissim mi non enim feugiat elementum.
-Donec sit amet turpis ac velit ultrices volutpat.
-Aliquam vitae elit massa.
-\SubBulletItem
-This is the second \CodeCommand{SubBulletItem}.
-\SubBulletItem
-The \CodeCommand{SubBulletItem}'s are between
-\CodeCommand{begin\{detail\}} and
-\CodeCommand{end\{detail\}} so that they are typeset in a smaller font.
-\end{detail}
-
-\Gap
-\BulletItem
-This is the third \CodeCommand{BulletItem}.
-
-\Gap
-\BulletItem
-A \CodeCommand{Gap} or \CodeCommand{GapNoBreak} is inserted between the \CodeCommand{BulletItem}'s so that there is a small vertical space between them.
-The ``NoBreak'' version prevents page breaking, and should be used to avoid orphaned headings and other formatting issues.
-
-\BigGap
-\subsection
-{This is the Second Subsection}
-{This is the Second Subsection}
-{PDF:ThisIsTheSecondSubSection}
-
-\GapNoBreak
-\BulletItem
-A \CodeCommand{BigGap} or \CodeCommand{BigGapNoBreak} is inserted between subsections so that there is a bigger vertical space between them.
-The ``NoBreak'' version prevents page breaking.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% ANOTHER SECTION WITH USAGE EXAMPLES %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section
-{Another\newline
-Section\newline
-With\newline
-Usage\newline
-Examples}
-{Another Section With Usage Examples (For PDF Bookmark)}
-{PDF:AnotherSectionWithUsageExamples:ForPDFLink}
-
-\textbf{This is a Plain Heading},
-followed by an \CodeCommand{hfill} and a date range
-\hfill
-\DatestampYM{2015}{10} --
-\DatestampYM{2015}{12}
-
-\GapNoBreak
-\BulletItem
-This is a \CodeCommand{BulletItem}.
-\begin{detail}
-\SubBulletItem
-This is a \CodeCommand{SubBulletItem}.
-\end{detail}
-
-\GapNoBreak
-\BulletItem
-This is a \CodeCommand{BulletItem}.
-\begin{detail}
-\SubItem
-This is a \CodeCommand{SubItem}, which has no bullet.
-Note the alignment with the \CodeCommand{BulletItem} above.
-\end{detail}
-
-\GapNoBreak
-\Item
-This is an \CodeCommand{Item}, which has no bullet.
-Note the alignment with the \CodeCommand{BulletItem} above.
-\begin{detail}
-\SubItem
-This is a \CodeCommand{SubItem}.
-\end{detail}
-
-\GapNoBreak
-\NumberedItem{[16]}
-This is a \CodeCommand{NumberedItem}.
-Note the alignment with the \CodeCommand{SubBulletItem} above.
-
-\GapNoBreak
-\NumberedItem{{\CharSpace}[6]}
-This is a \CodeCommand{NumberedItem} with a \CodeCommand{CharSpace} in its argument for padding shorter numbers.
-Note the alignment with the \CodeCommand{NumberedItem} above.
-
-\BigGap
-\textbf{Usage Notes}
-
-\GapNoBreak
-\BulletItem
-New Lines and Paragraphs
-\begin{detail}
-\SubBulletItem
-To create a new line within the same paragraph (i.e., with the same indentation), use \CodeCommand{newline} instead of \CodeCommand{\textbackslash}.
-The latter will not work because it breaks the long table.
-\SubBulletItem
-To create a new paragraph, use \CodeCommand{par} or simply leave an empty line.
-Paragraph indentations (from
-\CodeCommand{Item},
-\CodeCommand{SubItem},
-\CodeCommand{BulletItem},
-\CodeCommand{SubBulletItem},
-etc.) do not carry across different paragraphs.
-\end{detail}
-
-\Gap
-\BulletItem
-Vertical Spacing Between Items
-\begin{detail}
-\SubBulletItem
-Use \CodeCommand{Gap} or \CodeCommand{GapNoBreak} to insert a small vertical space between items within the same section.
-\SubBulletItem
-Use \CodeCommand{BigGap} or \CodeCommand{BigGapNoBreak} to insert a bigger vertical space between items within the same section.
-\SubBulletItem
-The ``NoBreak'' versions prevent page breaking.
-\end{detail}
-
-\Gap
-\BulletItem
-Dates
-\begin{detail}
-\SubBulletItem
-Use
-\CodeCommand{DatestampYMD\{YYYY\}\{MM\}\{DD\}},
-\CodeCommand{DatestampYM\{YYYY\}\{MM\}}, and
-\CodeCommand{DatestampY\{YYYY\}}
-to specify dates.
-\SubBulletItem
-Change the date format option passed to the document class to adjust how dates are displayed throughout the document:
-MMMyyyy (``Dec~2010''),
-ddMMMyyyy (``31~Dec~2010''),
-MMMMyyyy (``December~2010''),
-ddMMMMyyyy (``31~December~2010''),
-yyyyMMdd (``2010-12-31''),
-yyyyMM (``2010-12''),
-yyyy (``2010'').
-\end{detail}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% MULTILINGUAL UNICODE EXAMPLES %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section
-{Multilingual Unicode Examples}
-{Multilingual Unicode Examples}
-{PDF:MultilingualUnicodeExamples}
-
-\BulletItem
-Assortment of unicode characters from
-\href{http://www.ltg.ed.ac.uk/~richard/unicode-sample.html}
-{http://www.ltg.ed.ac.uk/{\TildeSymbol}richard/unicode-sample.html}
-
-\begin{detail}
-\SubItem
-\textbf{Latin Extended-A}
-Ā ā Ă ă Ą ą Ć ć Ĉ ĉ Ċ ċ Č č Ď ď Đ đ Ē ē Ĕ ĕ Ė ė Ę ę Ě ě Ĝ ĝ Ğ ğ Ġ ġ Ģ ģ Ĥ ĥ Ħ ħ Ĩ ĩ Ī ī Ĭ ĭ Į į İ ı Ĳ ĳ Ĵ ĵ
-\textbf{Latin Extended-B}
-ƀ Ɓ Ƃ ƃ Ƅ ƅ Ɔ Ƈ ƈ Ɖ Ɗ Ƌ ƌ ƍ Ǝ Ə Ɛ Ƒ ƒ Ɠ Ɣ ƕ Ɩ Ɨ Ƙ ƙ ƚ ƛ Ɯ Ɲ ƞ Ɵ Ơ ơ Ƣ ƣ Ƥ ƥ Ʀ Ƨ ƨ Ʃ ƪ ƫ Ƭ ƭ Ʈ Ư ư Ʊ Ʋ Ƴ ƴ Ƶ
-\textbf{Latin Extended Additional}
-Ḁ ḁ Ḃ ḃ Ḅ ḅ Ḇ ḇ Ḉ ḉ Ḋ ḋ Ḍ ḍ Ḏ ḏ Ḑ ḑ Ḓ ḓ Ḕ ḕ Ḗ ḗ Ḙ ḙ Ḛ ḛ Ḝ ḝ Ḟ ḟ Ḡ ḡ Ḣ ḣ Ḥ ḥ Ḧ ḧ Ḩ ḩ Ḫ ḫ Ḭ ḭ Ḯ ḯ Ḱ ḱ Ḳ ḳ Ḵ ḵ
-\textbf{Greek}
-ʹ ͵ ͺ ; ΄ ΅ Ά · Έ Ή Ί Ό Ύ Ώ ΐ Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω Ϊ Ϋ ά έ ή ί ΰ α β γ δ ε ζ η θ
-\textbf{Cyrillic}
-Ё Ђ Ѓ Є Ѕ І Ї Ј Љ Њ Ћ Ќ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з
-\textbf{Hebrew}
-א ב ג ד ה ו ז ח ט י ך כ ל ם מ ן נ ס ע ף פ ץ צ ק ר ש ת װ ױ ײ ֝ ֞ ֟ ֠ ֡ ֣ ֤ ֥ ֦ ֧ ֨ ֩ ֪ ֫ ֬ ֭ ֮ ֯ ְ ֱ ֒ ֓ ֔
-\textbf{Armenian}
-{\UseSecondaryFont
-Ա Բ Գ Դ Ե Զ Է Ը Թ Ժ Ի Լ Խ Ծ Կ Հ Ձ Ղ Ճ Մ Յ Ն Շ Ո Չ Պ Ջ Ռ Ս Վ Տ Ր Ց Ւ Փ Ք Օ Ֆ ՙ ՚ ՛ ՜ ՝ ՞ ՟ ա բ գ դ ե զ}
-\textbf{Thai}
-{\UseSecondaryFont
-ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ฤ ล ฦ ว ศ ษ ส ห ฬ อ ฮ ฯ ะ ั า ำ ิ}
-\end{detail}
++81\,(3)\,5841-7416
 
 \end{body}
 

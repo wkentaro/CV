@@ -240,7 +240,7 @@ BoldItalicFont=FreeSerifBoldItalic]
 {\par\end{longtable}\par}
 
 % Macro: section (new section for Education, Research Experience, etc.).
-\renewcommand{\section}[3]{\\[-1em]\pdfbookmark[2]{#2}{#3}\\%
+\renewcommand{\section}[3]{\\[-1.5em]\pdfbookmark[2]{#2}{#3}\\%
 {\UseSectionFont\raggedright\MakeUppercase{#1}}%
 &}
 
@@ -252,7 +252,7 @@ BoldItalicFont=FreeSerifBoldItalic]
 
 % Macro: BigGap, BigGapNoBreak (big vertical gap between items in the same section).
 \newcommand{\BigGap}{\\[-1.75mm]~&}
-\newcommand{\BigGapNoBreak}{\par\vspace{2.45mm}\par}
+\newcommand{\BigGapNoBreak}{\par\vspace{2.0mm}\par}
 
 % Macro: Gap, GapNoBreak (vertical gap between items in the same section).
 \newcommand{\Gap}{\\[-3.5mm]~&}

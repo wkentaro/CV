@@ -36,7 +36,7 @@
 \newcommand{\CVAuthor}{Kentaro Wada}
 \newcommand{\CVTitle}{Kentaro Wada's CV}
 \newcommand{\CVNote}{CV compiled on {\today}}
-\newcommand{\CVWebpage}{\href{https://wkentaro.com}{wkentaro.com}}
+\newcommand{\CVWebpage}{\href{https://wkentaro.com}{\underline{wkentaro.com}}}
 \renewcommand{\FooterText}{\null}
 
 % PDF settings and properties.
@@ -134,6 +134,7 @@ Supervisors: Prof. Masayuki Inaba, Prof. Kei Okada
 % \newline
 % {\it Extensive listing of cocurricular and research projects.}
 
+\BigGapNoBreak
 %%%%%%%%%%%%%%%%%
 %% DISTINCTION %%
 %%%%%%%%%%%%%%%%%
@@ -143,30 +144,49 @@ Supervisors: Prof. Masayuki Inaba, Prof. Kei Okada
 {Distinction}
 {PDF:Distinction}
 
-PhD President's Scholarship of Imperial College London
+\textit{Contributions to the Open Source Community}
+\hfill
+{\it \DatestampY{2015} - \DatestampY{2022}}
+\newline
+Created popular software with 1-8k stars and 500-1000 daily traffics (e.g., \href{https://github.com/wkentaro/labelme}{\underline{Labelme}}, \href{https://github.com/wkentaro/gdown}{\underline{Gdown}}).
+
+\BigGapNoBreak
+
+\textit{PhD President's Scholarship of Imperial College London}
 \hfill
 {\it \DatestampY{2018} -- \DatestampY{2022}}
 \newline
-{\it Full funded scholarship, and fifty PhD students are selected each year.}
+One of the fifty PhD students for the full funded scholarship.
 
 \BigGapNoBreak
-IEEE Robotics and Automation Society Japan Joint Chapter Young Award at IROS2018
+
+\textit{Two Patents on Object 6D Pose Estimation}
+\hfill
+{\it \DatestampY{2021}}
+\newline
+Invented methods for 3D object-level scene understanding using vision sensors.
+
+\BigGapNoBreak
+
+\textit{IEEE Robotics and Automation Society Japan Joint Chapter Young Award at IROS 2018}
 \hfill
 {\it \DatestampY{2018}}
 \newline
-{\it Five Japanese students are nominated based on their papers at the conference.}
-
-% \BigGapNoBreak
-% University of Tokyo, Toyota Dwango Advanced AI Fellowship
-% \hfill
-% {\it \DatestampY{2017}}
+One of the five Japanese students nominated with their conference papers.
 
 \BigGapNoBreak
-Google Summer of Code Student
+
+\textit{Lead the UTokyo Team at the Amazon Robotics Challenge}
 \hfill
-{\it \DatestampY{2016}}
+{\it \DatestampY{2015} -- \DatestampY{2017}}
 \newline
-{\it Completed an open source project from the Open Source Robotics Foundation.}
+Won the 5th place our of 16 teams in 2016. Mainly worked on the vision part.
+
+% Google Summer of Code
+% \hfill
+% {\it \DatestampY{2016}}
+% \newline
+% \textit{Built a reactive motion planning with the Open Source Robotics Foundation.}
 
 % \BigGapNoBreak
 % 5th Place Winners (Pick Task) at the Amazon Picking Challenge
@@ -175,6 +195,7 @@ Google Summer of Code Student
 % \newline
 % {\it An internationally recognised premier robotics competition.}
 
+\BigGapNoBreak
 %%%%%%%%%%%%%%%%%%
 %% PUBLICATIONS %%
 %%%%%%%%%%%%%%%%%%
@@ -207,29 +228,36 @@ Google Summer of Code Student
 % -------------------------------------------------------------------------------------------------
 
 % -------------------------------------------------------------------------------------------------
-\textbf{Kentaro Wada}, Stephen James, and Andrew J. Davison,
+\textit{Kentaro Wada}, Stephen James, and Andrew J. Davison,
 ``ReorientBot: Learning Object Reorientation for Specific-Posed Placement'',
-\textit{IEEE International Conference on Robotics and Automation (ICRA)}, 2022.
+IEEE International Conference on Robotics and Automation (ICRA), 2022.
 \href{https://arxiv.org/abs/2202.11092}{\underline{[Paper]}}
 \href{https://youtu.be/ahWN84sWWJU}{\underline{[Video]}}
+\href{https://reorientbot.wkentaro.com}{\underline{[Webpage]}}
 % -------------------------------------------------------------------------------------------------
 
+\BigGapNoBreak
+
 % -------------------------------------------------------------------------------------------------
-\textbf{Kentaro Wada}, Stephen James, and Andrew J. Davison,
+\textit{Kentaro Wada}, Stephen James, and Andrew J. Davison,
 ``SafePicking: Learning Safe Object Extraction via Object-Level Mapping'',
-\textit{IEEE International Conference on Robotics and Automation (ICRA)}, 2022.
+IEEE International Conference on Robotics and Automation (ICRA), 2022.
 \href{https://arxiv.org/abs/2202.05832}{\underline{[Paper]}}
 \href{https://youtu.be/ejjqiBqRRKo}{\underline{[Video]}}
+\href{https://safepicking.wkentaro.com}{\underline{[Webpage]}}
 % -------------------------------------------------------------------------------------------------
 
+\BigGapNoBreak
+
 % -------------------------------------------------------------------------------------------------
-\textbf{Kentaro Wada}, Edgar Sucar, Stephen James, Daniel Lenton, and Andrew J.
+\textit{Kentaro Wada}, Edgar Sucar, Stephen James, Daniel Lenton, and Andrew J.
 Davison,
 ``MoreFusion: Multi-object Reasoning for 6D Pose Estimation from Volumetric
 Fusion'',
-\textit{IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, 2020.
+IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
 \href{https://arxiv.org/abs/2004.04336}{\underline{[Paper]}}
 \href{https://youtu.be/6oLUhuZL4ko}{\underline{[Video]}}
+\href{https://morefusion.wkentaro.com}{\underline{[Webpage]}}
 % -------------------------------------------------------------------------------------------------
 
 % % -------------------------------------------------------------------------------------------------
@@ -240,8 +268,6 @@ Fusion'',
 % \href{https://youtu.be/bRTI0whWkq8}{\underline{[Video]}}
 % % -------------------------------------------------------------------------------------------------
 
-\GapNoBreak
-
 % -------------------------------------------------------------------------------------------------
 % Shun Hasegawa*, \textbf{Kentaro Wada}*, Shingo Kitagawa, Yuto Uchimi, Kei Okada, and Masayuki Inaba, (*equal contributions)
 % ``Collaborative Grasp: Realizing Complex Motion by Learning and Fusing Grasp Modalities with Instance Segmentation'',
@@ -250,25 +276,25 @@ Fusion'',
 % \href{https://drive.google.com/open?id=198Frz6e92ek5n7yt1EqrR_aoMjf_gIpT}{\underline{[Video]}}
 % -------------------------------------------------------------------------------------------------
 
-\GapNoBreak
+\BigGapNoBreak
 
 % -------------------------------------------------------------------------------------------------
-\textbf{Kentaro Wada}, Shingo Kitagawa, Kei Okada, and Masayuki Inaba,
+\textit{Kentaro Wada}, Shingo Kitagawa, Kei Okada, and Masayuki Inaba,
 ``Instance Segmentation of Visible and Occluded Regions for Finding and Picking Target from a Pile of Objects'',
-\textit{IEEE International Conference on Intelligent Robots and Systems (IROS)}, 2018.
+IEEE International Conference on Intelligent Robots and Systems (IROS), 2018.
 \href{https://arxiv.org/abs/2001.07475}{\underline{[Paper]}}
 \href{https://youtu.be/tNLtXb04i3w}{\underline{[Video]}}
 % -------------------------------------------------------------------------------------------------
 
-\GapNoBreak
+\BigGapNoBreak
 
 % -------------------------------------------------------------------------------------------------
 % Note the use of {\CharSpace} for aligning shorter numbers.
 % \NumberedItem{{\CharSpace}[9]}
 % \href{http://www.iros2017.org/}
-\textbf{Kentaro Wada}, Kei Okada, and Masayuki Inaba,
+\textit{Kentaro Wada}, Kei Okada, and Masayuki Inaba,
 ``Probabilistic 3D Multilabel Real-time Mapping for Multi-object Manipulation'',
-\textit{IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 2017.
+IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2017.
 \href{https://arxiv.org/abs/2001.05752}{\underline{[Paper]}}
 \href{https://youtu.be/T-vtVQT9sgc}{\underline{[Video]}}
 % Vancouver, Canada. 2017.
@@ -288,7 +314,7 @@ Fusion'',
 % % \DatestampYM{2017}{9}.
 % -------------------------------------------------------------------------------------------------
 
-\GapNoBreak
+% \GapNoBreak
 
 % -------------------------------------------------------------------------------------------------
 % % Note the use of {\CharSpace} for aligning shorter numbers.
@@ -301,7 +327,7 @@ Fusion'',
 % % \DatestampYM{2017}{3}.
 % -------------------------------------------------------------------------------------------------
 
-\GapNoBreak
+% \GapNoBreak
 
 % -------------------------------------------------------------------------------------------------
 % Note the use of {\CharSpace} for aligning shorter numbers.
@@ -316,7 +342,7 @@ Fusion'',
 % \DatestampYM{2016}{11}.
 % -------------------------------------------------------------------------------------------------
 
-\BigGapNoBreak
+% \BigGapNoBreak
 
 % -------------------------------------------------------------------------------------------------
 % % Note the use of {\CharSpace} for aligning shorter numbers.
@@ -417,22 +443,12 @@ Fusion'',
 %% RESEARCH EXPERIENCE %%
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section
-{Research Experience}
-{Research Experience}
-{PDF:ResearchExperience}
+% \section
+% {Research Experience}
+% {Research Experience}
+% {PDF:ResearchExperience}
 
 % -------------------------------------------------------------------------------------------------
-Leading the UTokyo Team at the Amazon Robotics Challenge
-\hfill
-\textit{\DatestampY{2015} -- \DatestampY{2017}}
-\newline
-\textit{JSK Robotics Laboratory at the University of Tokyo}
-\BulletItem
-Objectives: To develop a robust state-of-the-art robot picking system for warehouse automation.
-2015 edition: Verification based robust picking system by in-hand recognition.
-2016 edition: Deep learning based 3D semantic segmentation.
-2017 edition: Few-shot deep learning of novel object segmentation using only instance images.
 % -------------------------------------------------------------------------------------------------
 
 % \BigGapNoBreak
@@ -766,6 +782,7 @@ Objectives: To develop a robust state-of-the-art robot picking system for wareho
 % \BulletItem
 % Chinese: Basic (listening, speaking, reading, writing).
 
+\BigGapNoBreak
 %%%%%%%%%%%%
 %% SKILLS %%
 %%%%%%%%%%%%
@@ -776,17 +793,17 @@ Objectives: To develop a robust state-of-the-art robot picking system for wareho
 {PDF:KeySkills}
 
 \BulletItem
-Programming skills, especially with Python and C++,
-trained in the research use and contributions to open source projects at
-\href{http://github.com/wkentaro}{\underline{GitHub}}.
+\textbf{Coding and software development} with Python and C++ for GUI applications, command-line tools, deep learning, volumetric reconstruction, 2D/3D visualization, and physics simulation.
+
+\GapNoBreak
 
 \BulletItem
-Experience and knowledge of constructing a large robot vision system integrating various kinds of hardware and software
-with the Robot Operating System (ROS).
+\textbf{SLAM for 3D semantic scene understanding} with expertise in object tracking, reconstruction, detection and pose estimation using onboard, moving vision sensors.
+
+\GapNoBreak
 
 \BulletItem
-Knowledge of deep learning implementation with the frameworks including, Chainer, PyTorch and Caffe,
-and GPU computing using CUDA.
+\textbf{Real-time vision and robotic system building} for 3D scene understanding and motion generation with expertise in integration using The Robot Operation System (ROS).
 
 % Programming Languages: Python, C++, CUDA, C, BHTML, CSS, Javascript, PHP, Lisp
 %
@@ -794,6 +811,7 @@ and GPU computing using CUDA.
 %
 % Frameworks: Chainer, Caffe, scikit-learn, ROS, PCL, OpenCV, scikit-image, flask
 
+\BigGapNoBreak
 %%%%%%%%%%%%%%%
 %% INTERESTS %%
 %%%%%%%%%%%%%%%
@@ -803,9 +821,9 @@ and GPU computing using CUDA.
 {Interests}
 {PDF:Interests}
 
-Object Detection,
-3D Vision,
-Robotic Manipulation
+Deep Learning,
+3D Computer Vision,
+Robotics
 % Basketball,
 % western art,
 % piano.

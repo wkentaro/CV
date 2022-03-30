@@ -36,8 +36,10 @@
 \newcommand{\CVAuthor}{Kentaro Wada}
 \newcommand{\CVTitle}{Kentaro Wada's CV}
 \newcommand{\CVNote}{CV compiled on {\today}}
-\newcommand{\CVWebpage}{\href{https://wkentaro.com}{\underline{wkentaro.com}}}
+\newcommand{\CVWebpage}{\href{https://wkentaro.com}{\underline{https://wkentaro.com}}}
 \renewcommand{\FooterText}{\null}
+
+\definecolor{mygreen}{RGB}{26, 188, 156}
 
 % PDF settings and properties.
 \hypersetup{
@@ -54,8 +56,11 @@ bookmarksopen=true,
 pdfstartview=FitH,
 pdfpagelayout=OneColumn,
 pdfpagemode=UseOutlines,
-hidelinks,
-breaklinks}
+colorlinks=true,
+urlcolor=mygreen,
+% hidelinks,
+breaklinks
+}
 
 % Shorthand.
 \newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
@@ -73,7 +78,7 @@ breaklinks}
 \title{\CVAuthor}
 
 \begin{subtitle}
-London, United Kingdom
+\CVWebpage
 \par
 www.kentaro.wada@gmail.com
 \,\SubBulletSymbol\,
@@ -83,7 +88,7 @@ Date of birth: 31 January 1994
 \,\SubBulletSymbol\,
 Nationality: Japan
 \,\SubBulletSymbol\,
-Portfolio: \CVWebpage
+Location: London, UK
 
 \noindent\makebox[\linewidth]{\rule{0.8\paperwidth}{0.4pt}}
 \end{subtitle}
@@ -122,7 +127,29 @@ BE in Mechano-Informatics
 Supervisors: Prof. Masayuki Inaba, Prof. Kei Okada
 
 
-\BigGapNoBreak
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% WORK EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Work Experience}
+{Work Experience}
+{PDF:WorkExperience}
+
+\textbf{Corvus Robotics Inc.}, San Francisco
+\hfill
+\textit{\DatestampY{2020} -- \DatestampY{2021}}
+\newline
+Computer vision engineer for semantic segmentation (remote, part-time).
+
+% \href{http://www.donuts.ne.jp}
+\textbf{Donuts Co. Ltd.}, Tokyo
+\hfill
+\textit{\DatestampY{2013} -- \DatestampY{2014}}
+\newline
+Web system engineer (part-time).
+
+
 %%%%%%%%%%%%%%%%%
 %% DISTINCTION %%
 %%%%%%%%%%%%%%%%%
@@ -177,7 +204,6 @@ Won the 5th place our of 16 teams in 2016. Mainly worked on the vision part.
 % \textit{Built a reactive motion planning with the Open Source Robotics Foundation.}
 
 
-\BigGapNoBreak
 %%%%%%%%%%%%%%%%%%
 %% PUBLICATIONS %%
 %%%%%%%%%%%%%%%%%%
@@ -187,6 +213,7 @@ Won the 5th place our of 16 teams in 2016. Mainly worked on the vision part.
 {Publications}
 {PDF:Publications}
 
+\BulletItem
 \textit{Kentaro Wada}, Stephen James, and Andrew J. Davison,
 ``ReorientBot: Learning Object Reorientation for Specific-Posed Placement'',
 IEEE International Conference on Robotics and Automation (ICRA), 2022.
@@ -194,8 +221,7 @@ IEEE International Conference on Robotics and Automation (ICRA), 2022.
 \href{https://youtu.be/ahWN84sWWJU}{\underline{[Video]}}
 \href{https://reorientbot.wkentaro.com}{\underline{[Webpage]}}
 
-\BigGapNoBreak
-
+\BulletItem
 \textit{Kentaro Wada}, Stephen James, and Andrew J. Davison,
 ``SafePicking: Learning Safe Object Extraction via Object-Level Mapping'',
 IEEE International Conference on Robotics and Automation (ICRA), 2022.
@@ -203,8 +229,7 @@ IEEE International Conference on Robotics and Automation (ICRA), 2022.
 \href{https://youtu.be/ejjqiBqRRKo}{\underline{[Video]}}
 \href{https://safepicking.wkentaro.com}{\underline{[Webpage]}}
 
-\BigGapNoBreak
-
+\BulletItem
 \textit{Kentaro Wada}, Edgar Sucar, Stephen James, Daniel Lenton, and Andrew J.
 Davison,
 ``MoreFusion: Multi-object Reasoning for 6D Pose Estimation from Volumetric
@@ -214,21 +239,22 @@ IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
 \href{https://youtu.be/6oLUhuZL4ko}{\underline{[Video]}}
 \href{https://morefusion.wkentaro.com}{\underline{[Webpage]}}
 
-\BigGapNoBreak
-
+\BulletItem
 \textit{Kentaro Wada}, Shingo Kitagawa, Kei Okada, and Masayuki Inaba,
 ``Instance Segmentation of Visible and Occluded Regions for Finding and Picking Target from a Pile of Objects'',
 IEEE International Conference on Intelligent Robots and Systems (IROS), 2018.
 \href{https://arxiv.org/abs/2001.07475}{\underline{[Paper]}}
 \href{https://youtu.be/tNLtXb04i3w}{\underline{[Video]}}
 
-\BigGapNoBreak
+\hfill
+\href{https://scholar.google.com/citations?user=JoeSwcoAAAAJ&hl=ja}{\underline{See more…}}
 
-\textit{Kentaro Wada}, Kei Okada, and Masayuki Inaba,
-``Probabilistic 3D Multilabel Real-time Mapping for Multi-object Manipulation'',
-IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2017.
-\href{https://arxiv.org/abs/2001.05752}{\underline{[Paper]}}
-\href{https://youtu.be/T-vtVQT9sgc}{\underline{[Video]}}
+% \BulletItem
+% \textit{Kentaro Wada}, Kei Okada, and Masayuki Inaba,
+% ``Probabilistic 3D Multilabel Real-time Mapping for Multi-object Manipulation'',
+% IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2017.
+% \href{https://arxiv.org/abs/2001.05752}{\underline{[Paper]}}
+% \href{https://youtu.be/T-vtVQT9sgc}{\underline{[Video]}}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
@@ -411,53 +437,9 @@ IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2017
 % One of 42 awardees in the world.
 % \end{detail}
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% WORK EXPERIENCE %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% \section
-% {Work Experience}
-% {Work Experience}
-% {PDF:WorkExperience}
-
-% -------------------------------------------------------------------------------------------------
-% % \href{http://www.donuts.ne.jp}
-% Donuts Co. Ltd., Tokyo
-% \hfill
-% \textit{\DatestampY{2013} -- \DatestampY{2014}}
-% \newline
-% \textit{Interned as a System Integrator}
-% % \begin{detail}
-% % \SubBulletItem
-% % Frontend of e-commerce site with HTML, CSS and Javascript.
-% % \SubBulletItem
-% % Posting system construction with PHP.
-% % \end{detail}
-% -------------------------------------------------------------------------------------------------
-
-% \BigGapNoBreak
-
-% -------------------------------------------------------------------------------------------------
-% % \href{http://www.honda-ri.com/}
-% Honda Research Institute, Tokyo
-% \hfill
-% \textit{\DatestampY{2014}}
-% \newline
-% \textit{Summer intern, Road scene understanding with deep learning}
-% % \DatestampYMD{2014}{09}{26}
-% % \DatestampYMD{2014}{08}{29} --
-% % \DatestampYMD{2014}{09}{26}
-% % \begin{detail}
-% % \SubBulletItem
-% % Road scene recognition with deep learning
-% % \end{detail}
-% -------------------------------------------------------------------------------------------------
-
-\BigGapNoBreak
-%%%%%%%%%%%%
-%% SKILLS %%
-%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%
+%% KEY SKILLS %%
+%%%%%%%%%%%%%%%%
 
 \section
 {Key Skills}
